@@ -6,15 +6,10 @@ window.globalMod = require 'global'
 window.onresize = -> hop.View.center()
 
 
-
-hop.ShopNow.visible = false
 mainMenuMod.initMenu()
 shopNowMod.initShopNow()
 globalMod.initGlobal()
 
-
-
-	
 # Retina scaling
 if window.devicePixelRatio > 1.5
   hop.scale = 0.75
