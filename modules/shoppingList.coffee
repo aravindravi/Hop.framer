@@ -3,54 +3,45 @@
 # Reference the contents by name, like myModule.myFunction() or myModule.myVar
 
 
-exports.initShopNow = ->
+exports.initShoppingList = ->
 	
-	hop.shopNowBody.states.add
+	hop.shoppingListBody.states.add
 		hide: 
 			opacity: 0
 			scale: 0.6
 		show: 
 			opacity: 1
 			scale: 1
-	hop.map.states.add
-		hide:
-			opacity: 0
-			scale: 0.6
-		show: 
-			opacity: 1
-			scale: 1
-			curve: 'ease-out'	
-
-	hop.map.states.switchInstant('hide')
-	hop.shopNowBody.states.switchInstant('hide')
+	
+	hop.shoppingListBody.states.switchInstant('hide')
 	hop.globalFooter.states.switchInstant('hide')
 
 	for count in [1..5]
-		item = hop['shopItem' + count]
+		item = hop['listItem' + count]
 		item.states.add('show',{y: item.y, opacity:1})
-		item.states.add('hide',{y: (item.y - 80), opacity:0})
+		item.states.add('hide',{y: (item.y - 100), opacity:0})
 		item.states.switchInstant 'hide'
 
-exports.showShopNow = ->
-	hop.ShopNow.visible = true
-	hop.shopNowBody.states.switch('show')	
+exports.showShoppingList = ->
+	hop.ShoppingList.visible = true
+	hop.shoppingListBody.states.switch('show')	
 	hop.globalFooter.states.switch('default')	
 	Utils.delay 0.2, -> 
 		hop.map.states.switch('show')
 		for count in [1..5]
 			do (count) ->
 			   Utils.delay count * 0.2, ->
-			     hop["shopItem"+count].states.switch('show')
+			     hop["listItem"+count].states.switch('show')
 	Utils.delay 1.2, ->
-		hop.ShopNow.bringToFront()
-exports.hideShopNow = ->
-	hop.map.states.switch('hide')
+		hop.ShoppingList.bringToFront()
+
+exports.hideShoppingList = ->
 	hop.globalFooter.states.switch('hide')
 	for count in [1..5]
 		do (count) ->
 		   Utils.delay count * 0.2, ->
-		     hop["shopItem"+count].states.switch('hide')
-	hop.shopNowBody.states.switch('hide')
+		     hop["listItem"+count].states.switch('hide')
+	hop.shoppingListBody.states.switch('hide')
 
 
 

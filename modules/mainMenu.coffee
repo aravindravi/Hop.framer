@@ -31,6 +31,7 @@ exports.showMenu = ->
 
 	Utils.delay 8 * 0.1, -> 
 		hop.footer.states.switch('show')
+	hop.MainMenu.bringToFront()	
 
 exports.hideMenu = ->
 	#hop.MainMenu.backgroundColor = '#ffffff'
@@ -42,12 +43,13 @@ exports.hideMenu = ->
 		hop.footer.states.switch('hide')
 		hop.MainMenu.states.switch('hide')
 
-	
-
-hop.option1.on Events.Click, (event,layer) ->
+# Events
+hop.option2.on Events.Click, (event,layer) ->
 	window.shopNowMod.showShopNow()
-	window.globalMod.initGlobal()
 	exports.hideMenu()
 
+hop.option3.on Events.Click, (event,layer) ->
+	window.shoppingListMod.showShoppingList()
+	exports.hideMenu()
 
 

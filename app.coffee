@@ -3,12 +3,14 @@ window.hop = Framer.Importer.load "imported/Hop Framer"
 window.mainMenuMod = require 'mainMenu'
 window.shopNowMod = require 'shopNow'
 window.globalMod = require 'global'
+window.shoppingListMod = require 'shoppingList'
 window.onresize = -> hop.View.center()
 
-
+globalMod.initGlobal()
 mainMenuMod.initMenu()
 shopNowMod.initShopNow()
-globalMod.initGlobal()
+shoppingListMod.initShoppingList()
+
 
 # Retina scaling
 if window.devicePixelRatio > 1.5
