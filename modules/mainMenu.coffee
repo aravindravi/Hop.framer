@@ -7,6 +7,7 @@ exports.initMenu = ->
 	hop.MainMenu.states.add('hide',{opacity:0})
 	hop.MainMenu.states.add('show',{opacity:1})
 	hop.MainMenu.bringToFront()	
+	hop.Global.bringToFront()
 	#States for menu options
 	for count in [1..8]
 		option = hop["option" + count]
@@ -19,7 +20,6 @@ exports.initMenu = ->
 	footer.states.add('hide', {y:1400, opacity:0})
 	footer.states.add('show', {y:footer.y, opacity:1})
 	footer.states.switchInstant 'hide'
-	
 	exports.showMenu()
 
 exports.showMenu = ->

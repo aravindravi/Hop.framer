@@ -20,13 +20,13 @@ exports.initShopNow = ->
 			opacity: 1
 			scale: 1
 			curve: 'ease-out'	
-	hop.shopNowFooter.states.add
+	hop.globalFooter.states.add
 		hide:
 			y: 1200
 
 	hop.map.states.switchInstant('hide')
 	hop.shopNowBody.states.switchInstant('hide')
-	hop.shopNowFooter.states.switchInstant('hide')
+	hop.globalFooter.states.switchInstant('hide')
 
 	for count in [1..5]
 		item = hop['shopItem' + count]
@@ -37,17 +37,18 @@ exports.initShopNow = ->
 exports.showShopNow = ->
 	hop.ShopNow.visible = true
 	hop.shopNowBody.states.switch('show')	
-	hop.shopNowFooter.states.switch('default')	
+	hop.globalFooter.states.switch('default')	
 	Utils.delay 0.2, -> 
 		hop.map.states.switch('show')
 		for count in [1..5]
 			do (count) ->
 			   Utils.delay count * 0.2, ->
 			     hop["shopItem"+count].states.switch('show')
-
+	Utils.delay 1.2, ->
+		hop.ShopNow.bringToFront()
 exports.hideShopNow = ->
 	hop.map.states.switch('hide')
-	hop.shopNowFooter.states.switch('hide')
+	hop.globalFooter.states.switch('hide')
 	for count in [1..5]
 		do (count) ->
 		   Utils.delay count * 0.2, ->
