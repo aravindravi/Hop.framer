@@ -3397,7 +3397,31 @@ window.__imported__["Hop Framer/layers.json.js"] = [
             "id" : "C90CA9AF-754F-4647-A89A-450010DB26EF",
             "visible" : true,
             "children" : [
+              {
+                "maskFrame" : null,
+                "id" : "AB87B421-2010-4BB8-B4CD-D7A93C9A86A1",
+                "visible" : true,
+                "children" : [
 
+                ],
+                "image" : {
+                  "path" : "images\/Layer-recipeImg-AB87B421-2010-4BB8-B4CD-D7A93C9A86A1.png",
+                  "frame" : {
+                    "y" : 373,
+                    "x" : 7,
+                    "width" : 134,
+                    "height" : 81
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 373,
+                  "x" : 7,
+                  "width" : 134,
+                  "height" : 81
+                },
+                "name" : "recipeImg"
+              }
             ],
             "image" : {
               "path" : "images\/Layer-recipeItem3-C90CA9AF-754F-4647-A89A-450010DB26EF.png",

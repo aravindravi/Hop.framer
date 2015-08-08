@@ -15,4 +15,5 @@ recipeListMod.initRecipeList()
 
 
 # Retina scaling
-Framer.Device.contentScale = 2
+Framer.Device.contentScale = 1.7
+

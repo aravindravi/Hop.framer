@@ -7,7 +7,14 @@ exports.initRecipeList = ->
 		show: 
 			opacity: 1
 			scale: 1
-
+	hop.recipeImg.states.add
+		zoomIn:
+			width: 640
+			height: 391
+			y: -230
+			x: -4
+			originX: 0
+			originY: 1
 	hop.recipeListBody.states.switchInstant('hide')
 	hop.globalFooter.states.switchInstant('hide')
 
@@ -35,3 +42,6 @@ exports.hideRecipeList = ->
 	hop.recipeListBody.states.switch('hide')
 	hop.globalFooter.states.switch('hide')
 	
+hop.recipeItem3.on Events.Click, (event,layer) ->
+	hop.recipeImg.states.switch('zoomIn')
+

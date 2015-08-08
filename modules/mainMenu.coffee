@@ -23,8 +23,6 @@ exports.initMenu = ->
 	exports.showMenu()
 
 exports.showMenu = ->
-	for count in [1..5]
-		hop["option"+count].states.switchInstant('hide')
 	hop.MainMenu.states.switch('show')
 	for count in [1..8]
 		do (count) ->
