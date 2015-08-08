@@ -23,6 +23,8 @@ exports.initMenu = ->
 	exports.showMenu()
 
 exports.showMenu = ->
+	for count in [1..5]
+		hop["option"+count].states.switchInstant('hide')
 	hop.MainMenu.states.switch('show')
 	for count in [1..8]
 		do (count) ->
@@ -52,4 +54,7 @@ hop.option3.on Events.Click, (event,layer) ->
 	window.shoppingListMod.showShoppingList()
 	exports.hideMenu()
 
+hop.option6.on Events.Click, (event,layer) ->
+	window.recipeListMod.showRecipeList()
+	exports.hideMenu()
 

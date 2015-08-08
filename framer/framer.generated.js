@@ -1657,7 +1657,7 @@ window.__imported__["Hop Framer/layers.json.js"] = [
           "frame" : {
             "y" : 24,
             "x" : 1,
-            "width" : 640,
+            "width" : 639,
             "height" : 76
           }
         },
@@ -1665,7 +1665,7 @@ window.__imported__["Hop Framer/layers.json.js"] = [
         "layerFrame" : {
           "y" : 24,
           "x" : 1,
-          "width" : 640,
+          "width" : 639,
           "height" : 76
         },
         "name" : "mainMenuHeader"
@@ -2184,104 +2184,6 @@ window.__imported__["Hop Framer/layers.json.js"] = [
           "height" : 80
         },
         "name" : "globalFooter"
-      },
-      {
-        "maskFrame" : null,
-        "id" : "344E1624-1A80-43A8-BCB1-5DA5E0DE78CA",
-        "visible" : true,
-        "children" : [
-          {
-            "maskFrame" : null,
-            "id" : "D1ACE0E2-3B04-4765-A8E1-010C3F5D9E61",
-            "visible" : true,
-            "children" : [
-
-            ],
-            "image" : {
-              "path" : "images\/Layer-Signal-D1ACE0E2-3B04-4765-A8E1-010C3F5D9E61.png",
-              "frame" : {
-                "y" : 14,
-                "x" : 13,
-                "width" : 68,
-                "height" : 12
-              }
-            },
-            "imageType" : "png",
-            "layerFrame" : {
-              "y" : 14,
-              "x" : 13,
-              "width" : 68,
-              "height" : 12
-            },
-            "name" : "Signal"
-          },
-          {
-            "maskFrame" : null,
-            "id" : "0DE15131-3142-4BEA-B52A-106235D1FA49",
-            "visible" : true,
-            "children" : [
-              {
-                "maskFrame" : null,
-                "id" : "BD142A25-B57C-4895-9543-EB31D83F4FA3",
-                "visible" : true,
-                "children" : [
-
-                ],
-                "image" : {
-                  "path" : "images\/Layer-Battery_Icon-BD142A25-B57C-4895-9543-EB31D83F4FA3.png",
-                  "frame" : {
-                    "y" : 10,
-                    "x" : 580,
-                    "width" : 50,
-                    "height" : 20
-                  }
-                },
-                "imageType" : "png",
-                "layerFrame" : {
-                  "y" : 10,
-                  "x" : 580,
-                  "width" : 50,
-                  "height" : 20
-                },
-                "name" : "Battery_Icon"
-              }
-            ],
-            "image" : {
-              "path" : "images\/Layer-Charge-0DE15131-3142-4BEA-B52A-106235D1FA49.png",
-              "frame" : {
-                "y" : 10,
-                "x" : 524,
-                "width" : 106,
-                "height" : 20
-              }
-            },
-            "imageType" : "png",
-            "layerFrame" : {
-              "y" : 10,
-              "x" : 524,
-              "width" : 106,
-              "height" : 20
-            },
-            "name" : "Charge"
-          }
-        ],
-        "image" : {
-          "path" : "images\/Layer-globalStatus-344E1624-1A80-43A8-BCB1-5DA5E0DE78CA.png",
-          "frame" : {
-            "y" : 0,
-            "x" : 0,
-            "width" : 640,
-            "height" : 40
-          }
-        },
-        "imageType" : "png",
-        "layerFrame" : {
-          "y" : 0,
-          "x" : 0,
-          "width" : 640,
-          "height" : 40
-        },
-        "name" : "globalStatus"
       }
     ],
     "id" : "1F2C51F5-D8B6-4509-95AD-585D47CC843C",
@@ -2971,6 +2873,358 @@ window.__imported__["Hop Framer/layers.json.js"] = [
     "children" : [
       {
         "maskFrame" : null,
+        "id" : "43F00C98-A30C-4FE6-8CA0-29855F22ED55",
+        "visible" : true,
+        "children" : [
+          {
+            "maskFrame" : null,
+            "id" : "DBE6DBC8-EAF7-4AF9-B4DF-20ADD77BA453",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/Layer-Signal-DBE6DBC8-EAF7-4AF9-B4DF-20ADD77BA453.png",
+              "frame" : {
+                "y" : 14,
+                "x" : 13,
+                "width" : 68,
+                "height" : 12
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 14,
+              "x" : 13,
+              "width" : 68,
+              "height" : 12
+            },
+            "name" : "Signal"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "3C7EFB82-951D-44AB-9F9E-C1CBC984B469",
+            "visible" : true,
+            "children" : [
+              {
+                "maskFrame" : null,
+                "id" : "A4159ED9-E0C7-4CD6-85BD-FAAD17E214AE",
+                "visible" : true,
+                "children" : [
+
+                ],
+                "image" : {
+                  "path" : "images\/Layer-Battery_Icon-A4159ED9-E0C7-4CD6-85BD-FAAD17E214AE.png",
+                  "frame" : {
+                    "y" : 10,
+                    "x" : 580,
+                    "width" : 50,
+                    "height" : 20
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 10,
+                  "x" : 580,
+                  "width" : 50,
+                  "height" : 20
+                },
+                "name" : "Battery_Icon"
+              }
+            ],
+            "image" : {
+              "path" : "images\/Layer-Charge-3C7EFB82-951D-44AB-9F9E-C1CBC984B469.png",
+              "frame" : {
+                "y" : 10,
+                "x" : 524,
+                "width" : 106,
+                "height" : 20
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 10,
+              "x" : 524,
+              "width" : 106,
+              "height" : 20
+            },
+            "name" : "Charge"
+          }
+        ],
+        "image" : {
+          "path" : "images\/Layer-Status_Bar__Black_2-43F00C98-A30C-4FE6-8CA0-29855F22ED55.png",
+          "frame" : {
+            "y" : 0,
+            "x" : 0,
+            "width" : 640,
+            "height" : 40
+          }
+        },
+        "imageType" : "png",
+        "layerFrame" : {
+          "y" : 0,
+          "x" : 0,
+          "width" : 640,
+          "height" : 40
+        },
+        "name" : "Status_Bar__Black_2"
+      },
+      {
+        "maskFrame" : null,
+        "children" : [
+
+        ],
+        "id" : "F798095F-BB85-418B-A855-A80F8A71129B",
+        "visible" : true,
+        "imageType" : "png",
+        "layerFrame" : {
+          "y" : 975,
+          "x" : 277,
+          "width" : 243,
+          "height" : 238
+        },
+        "name" : "fasave_alias"
+      },
+      {
+        "maskFrame" : null,
+        "id" : "279B8E13-03A5-43D0-B703-C71A6B8EBF88",
+        "visible" : true,
+        "children" : [
+          {
+            "maskFrame" : null,
+            "id" : "74ED223B-BAA8-4C7B-8232-AA6BF2691D20",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/Layer-listItem2-74ED223B-BAA8-4C7B-8232-AA6BF2691D20.png",
+              "frame" : {
+                "y" : 233,
+                "x" : 0,
+                "width" : 640,
+                "height" : 122
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 233,
+              "x" : 0,
+              "width" : 640,
+              "height" : 122
+            },
+            "name" : "listItem2"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "74C6154B-D07E-44E1-9E01-B4CD9105D074",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/Layer-listItem5-74C6154B-D07E-44E1-9E01-B4CD9105D074.png",
+              "frame" : {
+                "y" : 590,
+                "x" : 0,
+                "width" : 640,
+                "height" : 122
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 590,
+              "x" : 0,
+              "width" : 640,
+              "height" : 122
+            },
+            "name" : "listItem5"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "67E12D63-348F-4098-B9D1-EB1D42987744",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/Layer-listItem4-67E12D63-348F-4098-B9D1-EB1D42987744.png",
+              "frame" : {
+                "y" : 471,
+                "x" : 0,
+                "width" : 640,
+                "height" : 122
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 471,
+              "x" : 0,
+              "width" : 640,
+              "height" : 122
+            },
+            "name" : "listItem4"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "AD396F20-69A0-47DA-9A5B-62816FD31493",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/Layer-listItem3-AD396F20-69A0-47DA-9A5B-62816FD31493.png",
+              "frame" : {
+                "y" : 352,
+                "x" : 0,
+                "width" : 640,
+                "height" : 122
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 352,
+              "x" : 0,
+              "width" : 640,
+              "height" : 122
+            },
+            "name" : "listItem3"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "520B646B-7E7F-40D6-961F-93A476A276A3",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/Layer-listItem1-520B646B-7E7F-40D6-961F-93A476A276A3.png",
+              "frame" : {
+                "y" : 114,
+                "x" : 0,
+                "width" : 640,
+                "height" : 122
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 114,
+              "x" : 0,
+              "width" : 640,
+              "height" : 122
+            },
+            "name" : "listItem1"
+          }
+        ],
+        "image" : {
+          "path" : "images\/Layer-shoppingListBody-279B8E13-03A5-43D0-B703-C71A6B8EBF88.png",
+          "frame" : {
+            "y" : 114,
+            "x" : 0,
+            "width" : 640,
+            "height" : 943
+          }
+        },
+        "imageType" : "png",
+        "layerFrame" : {
+          "y" : 114,
+          "x" : 0,
+          "width" : 640,
+          "height" : 943
+        },
+        "name" : "shoppingListBody"
+      },
+      {
+        "maskFrame" : null,
+        "id" : "63ADAD36-214D-4FBE-B9BA-E7604392387B",
+        "visible" : true,
+        "children" : [
+          {
+            "maskFrame" : null,
+            "id" : "B9452455-9425-4AAF-B569-70AA5F4347DF",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/Layer-magnifyingglass34_copy-B9452455-9425-4AAF-B569-70AA5F4347DF.png",
+              "frame" : {
+                "y" : 60,
+                "x" : 582,
+                "width" : 38,
+                "height" : 39
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 60,
+              "x" : 582,
+              "width" : 38,
+              "height" : 39
+            },
+            "name" : "magnifyingglass34_copy"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "78A8FE55-853F-447F-8328-75BD2143396D",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/Layer-back-78A8FE55-853F-447F-8328-75BD2143396D.png",
+              "frame" : {
+                "y" : 67,
+                "x" : 22,
+                "width" : 40,
+                "height" : 25
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 67,
+              "x" : 22,
+              "width" : 40,
+              "height" : 25
+            },
+            "name" : "back"
+          }
+        ],
+        "image" : {
+          "path" : "images\/Layer-shoppingListHeader-63ADAD36-214D-4FBE-B9BA-E7604392387B.png",
+          "frame" : {
+            "y" : 35,
+            "x" : 0,
+            "width" : 640,
+            "height" : 80
+          }
+        },
+        "imageType" : "png",
+        "layerFrame" : {
+          "y" : 35,
+          "x" : 0,
+          "width" : 640,
+          "height" : 80
+        },
+        "name" : "shoppingListHeader"
+      }
+    ],
+    "id" : "7A4C249A-E488-4885-92AD-D3FB4E77F601",
+    "visible" : false,
+    "imageType" : "png",
+    "layerFrame" : {
+      "y" : 0,
+      "x" : 0,
+      "width" : 640,
+      "height" : 1136
+    },
+    "name" : "ShoppingList"
+  },
+  {
+    "maskFrame" : null,
+    "children" : [
+      {
+        "maskFrame" : null,
         "id" : "F4E8E4FE-3ABE-4349-BC28-9EC95D44AB2F",
         "visible" : true,
         "children" : [
@@ -2985,7 +3239,7 @@ window.__imported__["Hop Framer/layers.json.js"] = [
               "path" : "images\/Layer-Signal-B218AC2E-DE9F-4DF1-9164-C78C04512E09.png",
               "frame" : {
                 "y" : 14,
-                "x" : 13,
+                "x" : 12,
                 "width" : 68,
                 "height" : 12
               }
@@ -2993,7 +3247,7 @@ window.__imported__["Hop Framer/layers.json.js"] = [
             "imageType" : "png",
             "layerFrame" : {
               "y" : 14,
-              "x" : 13,
+              "x" : 12,
               "width" : 68,
               "height" : 12
             },
@@ -3053,16 +3307,16 @@ window.__imported__["Hop Framer/layers.json.js"] = [
           "path" : "images\/Layer-Status_Bar__Black_2-F4E8E4FE-3ABE-4349-BC28-9EC95D44AB2F.png",
           "frame" : {
             "y" : 0,
-            "x" : 0,
-            "width" : 640,
+            "x" : -1,
+            "width" : 641,
             "height" : 40
           }
         },
         "imageType" : "png",
         "layerFrame" : {
           "y" : 0,
-          "x" : 0,
-          "width" : 640,
+          "x" : -1,
+          "width" : 641,
           "height" : 40
         },
         "name" : "Status_Bar__Black_2"
@@ -3077,8 +3331,8 @@ window.__imported__["Hop Framer/layers.json.js"] = [
         "imageType" : "png",
         "layerFrame" : {
           "y" : 975,
-          "x" : 277,
-          "width" : 243,
+          "x" : 276,
+          "width" : 244,
           "height" : 238
         },
         "name" : "fasave_alias"
@@ -3090,78 +3344,53 @@ window.__imported__["Hop Framer/layers.json.js"] = [
         "children" : [
           {
             "maskFrame" : null,
-            "id" : "A11A6B8D-3301-4DB9-B5EF-6CCE6BEB7C41",
-            "visible" : true,
-            "children" : [
-
-            ],
-            "image" : {
-              "path" : "images\/Layer-listItem2-A11A6B8D-3301-4DB9-B5EF-6CCE6BEB7C41.png",
-              "frame" : {
-                "y" : 232,
-                "x" : 0,
-                "width" : 640,
-                "height" : 122
-              }
-            },
-            "imageType" : "png",
-            "layerFrame" : {
-              "y" : 232,
-              "x" : 0,
-              "width" : 640,
-              "height" : 122
-            },
-            "name" : "listItem2"
-          },
-          {
-            "maskFrame" : null,
-            "id" : "39006017-B3E1-4A40-81E2-D5B7480A174A",
-            "visible" : true,
-            "children" : [
-
-            ],
-            "image" : {
-              "path" : "images\/Layer-listItem5-39006017-B3E1-4A40-81E2-D5B7480A174A.png",
-              "frame" : {
-                "y" : 589,
-                "x" : 0,
-                "width" : 640,
-                "height" : 122
-              }
-            },
-            "imageType" : "png",
-            "layerFrame" : {
-              "y" : 589,
-              "x" : 0,
-              "width" : 640,
-              "height" : 122
-            },
-            "name" : "listItem5"
-          },
-          {
-            "maskFrame" : null,
             "id" : "A807D56A-D07F-4E48-9601-64C15E89CA49",
             "visible" : true,
             "children" : [
 
             ],
             "image" : {
-              "path" : "images\/Layer-listItem4-A807D56A-D07F-4E48-9601-64C15E89CA49.png",
+              "path" : "images\/Layer-recipeItem5-A807D56A-D07F-4E48-9601-64C15E89CA49.png",
               "frame" : {
-                "y" : 470,
-                "x" : 0,
-                "width" : 640,
+                "y" : 591,
+                "x" : -1,
+                "width" : 641,
                 "height" : 122
               }
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 470,
-              "x" : 0,
-              "width" : 640,
+              "y" : 591,
+              "x" : -1,
+              "width" : 641,
               "height" : 122
             },
-            "name" : "listItem4"
+            "name" : "recipeItem5"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "4521F045-BFE3-4A80-BA9D-F1FD4C3BD966",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/Layer-recipeItem4-4521F045-BFE3-4A80-BA9D-F1FD4C3BD966.png",
+              "frame" : {
+                "y" : 471,
+                "x" : -1,
+                "width" : 641,
+                "height" : 122
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 471,
+              "x" : -1,
+              "width" : 641,
+              "height" : 122
+            },
+            "name" : "recipeItem4"
           },
           {
             "maskFrame" : null,
@@ -3171,22 +3400,47 @@ window.__imported__["Hop Framer/layers.json.js"] = [
 
             ],
             "image" : {
-              "path" : "images\/Layer-listItem3-C90CA9AF-754F-4647-A89A-450010DB26EF.png",
+              "path" : "images\/Layer-recipeItem3-C90CA9AF-754F-4647-A89A-450010DB26EF.png",
               "frame" : {
-                "y" : 351,
-                "x" : 0,
-                "width" : 640,
+                "y" : 352,
+                "x" : -1,
+                "width" : 641,
                 "height" : 122
               }
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 351,
-              "x" : 0,
-              "width" : 640,
+              "y" : 352,
+              "x" : -1,
+              "width" : 641,
               "height" : 122
             },
-            "name" : "listItem3"
+            "name" : "recipeItem3"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "A11A6B8D-3301-4DB9-B5EF-6CCE6BEB7C41",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/Layer-recipeItem2-A11A6B8D-3301-4DB9-B5EF-6CCE6BEB7C41.png",
+              "frame" : {
+                "y" : 233,
+                "x" : -1,
+                "width" : 641,
+                "height" : 122
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 233,
+              "x" : -1,
+              "width" : 641,
+              "height" : 122
+            },
+            "name" : "recipeItem2"
           },
           {
             "maskFrame" : null,
@@ -3196,41 +3450,41 @@ window.__imported__["Hop Framer/layers.json.js"] = [
 
             ],
             "image" : {
-              "path" : "images\/Layer-listItem1-FB0F407F-990F-4BEE-8842-21725F0E4658.png",
+              "path" : "images\/Layer-recipeItem1-FB0F407F-990F-4BEE-8842-21725F0E4658.png",
               "frame" : {
                 "y" : 114,
-                "x" : 0,
-                "width" : 640,
-                "height" : 121
+                "x" : -1,
+                "width" : 641,
+                "height" : 122
               }
             },
             "imageType" : "png",
             "layerFrame" : {
               "y" : 114,
-              "x" : 0,
-              "width" : 640,
-              "height" : 121
+              "x" : -1,
+              "width" : 641,
+              "height" : 122
             },
-            "name" : "listItem1"
+            "name" : "recipeItem1"
           }
         ],
         "image" : {
-          "path" : "images\/Layer-shoppingListBody-60F992DB-4177-44DD-BD1A-29928D2B4A26.png",
+          "path" : "images\/Layer-recipeListBody-60F992DB-4177-44DD-BD1A-29928D2B4A26.png",
           "frame" : {
             "y" : 114,
-            "x" : 0,
-            "width" : 640,
-            "height" : 941
+            "x" : -1,
+            "width" : 641,
+            "height" : 943
           }
         },
         "imageType" : "png",
         "layerFrame" : {
           "y" : 114,
-          "x" : 0,
-          "width" : 640,
-          "height" : 941
+          "x" : -1,
+          "width" : 641,
+          "height" : 943
         },
-        "name" : "shoppingListBody"
+        "name" : "recipeListBody"
       },
       {
         "maskFrame" : null,
@@ -3248,16 +3502,16 @@ window.__imported__["Hop Framer/layers.json.js"] = [
               "path" : "images\/Layer-magnifyingglass34_copy-C4C6ACDA-B486-4151-ADBD-6F931BB6F56C.png",
               "frame" : {
                 "y" : 60,
-                "x" : 582,
-                "width" : 38,
+                "x" : 581,
+                "width" : 39,
                 "height" : 39
               }
             },
             "imageType" : "png",
             "layerFrame" : {
               "y" : 60,
-              "x" : 582,
-              "width" : 38,
+              "x" : 581,
+              "width" : 39,
               "height" : 39
             },
             "name" : "magnifyingglass34_copy"
@@ -3273,16 +3527,16 @@ window.__imported__["Hop Framer/layers.json.js"] = [
               "path" : "images\/Layer-back-1A7934F2-4697-4AAF-B95A-94DD24C69623.png",
               "frame" : {
                 "y" : 67,
-                "x" : 22,
-                "width" : 40,
+                "x" : 21,
+                "width" : 41,
                 "height" : 25
               }
             },
             "imageType" : "png",
             "layerFrame" : {
               "y" : 67,
-              "x" : 22,
-              "width" : 40,
+              "x" : 21,
+              "width" : 41,
               "height" : 25
             },
             "name" : "back"
@@ -3292,16 +3546,16 @@ window.__imported__["Hop Framer/layers.json.js"] = [
           "path" : "images\/Layer-shoppingListHeader-07456443-276F-4BB6-873D-998804FE38C0.png",
           "frame" : {
             "y" : 35,
-            "x" : 0,
-            "width" : 640,
+            "x" : -1,
+            "width" : 641,
             "height" : 80
           }
         },
         "imageType" : "png",
         "layerFrame" : {
           "y" : 35,
-          "x" : 0,
-          "width" : 640,
+          "x" : -1,
+          "width" : 641,
           "height" : 80
         },
         "name" : "shoppingListHeader"
@@ -3316,7 +3570,7 @@ window.__imported__["Hop Framer/layers.json.js"] = [
       "width" : 640,
       "height" : 1136
     },
-    "name" : "ShoppingList"
+    "name" : "RecipeList"
   },
   {
     "maskFrame" : null,
@@ -4011,12 +4265,12 @@ window.__imported__["Hop Framer/layers.json.js"] = [
       }
     ],
     "image" : {
-      "path" : "images\/Layer-Recipes-5F74FA6B-21C9-42D9-AC94-1931894D1AE0.png",
+      "path" : "images\/Layer-SchezwanTofu-5F74FA6B-21C9-42D9-AC94-1931894D1AE0.png",
       "frame" : {
         "y" : 0,
         "x" : 0,
         "width" : 640,
-        "height" : 1136
+        "height" : 1480
       }
     },
     "imageType" : "png",
@@ -4024,9 +4278,9 @@ window.__imported__["Hop Framer/layers.json.js"] = [
       "y" : 0,
       "x" : 0,
       "width" : 640,
-      "height" : 1136
+      "height" : 1480
     },
-    "name" : "Recipes"
+    "name" : "SchezwanTofu"
   },
   {
     "maskFrame" : null,
@@ -4177,9 +4431,9 @@ window.__imported__["Hop Framer/layers.json.js"] = [
   }
 ]
 if (typeof(DeviceComponent) !== "undefined") {DeviceComponent.Devices["iphone-6-silver"].deviceImageJP2 = false};
-window.Framer.Defaults.DeviceView = {"deviceScale":-1,"deviceType":"iphone-5s-gold","contentScale":1,"orientation":0};
+window.Framer.Defaults.DeviceView = {"deviceScale":0.25,"deviceType":"nexus-5-black","contentScale":1,"orientation":0};
 
-window.Framer.Defaults.DeviceComponent = {"deviceScale":-1,"deviceType":"iphone-5s-gold","contentScale":1,"orientation":0};
+window.Framer.Defaults.DeviceComponent = {"deviceScale":0.25,"deviceType":"nexus-5-black","contentScale":1,"orientation":0};
 
 window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"Hop.framer"};
 
