@@ -7,14 +7,7 @@ exports.initRecipeList = ->
 		show: 
 			opacity: 1
 			scale: 1
-	hop.recipeImg.states.add
-		zoomIn:
-			width: 640
-			height: 391
-			y: -230
-			x: -4
-			originX: 0
-			originY: 1
+	
 	hop.recipeListBody.states.switchInstant('hide')
 	hop.globalFooter.states.switchInstant('hide')
 
@@ -23,10 +16,12 @@ exports.initRecipeList = ->
 		item.states.add('show',{y: item.y, opacity:1})
 		item.states.add('hide',{y: (1024), opacity:0})
 		item.states.switchInstant('hide')
+		item.states.animationOptions = time:0.5
 
 exports.showRecipeList = ->
 	for count in [1..5]
 		hop["recipeItem"+count].states.switchInstant('hide')
+
 
 	hop.RecipeList.placeBehind(hop.MainMenu)
 	hop.RecipeList.visible = true
@@ -43,5 +38,37 @@ exports.hideRecipeList = ->
 	hop.globalFooter.states.switch('hide')
 	
 hop.recipeItem3.on Events.Click, (event,layer) ->
-	hop.recipeImg.states.switch('zoomIn')
+	#recipeLayer = hop.recipeImg.copy()
+	#recipeLayer.superLayer = hop.recipeListBody
+	
+	hop.SchezwanTofu.visible = true
+	
+	recipeLayer = hop.schezwanBody
+	recipeLayer = hop.RecipeCoverImg.copy()
+	recipeLayer.superLayer = hop.RecipeList
+	recipeLayer.width = hop.recipeImg.width
+	recipeLayer.height = hop.recipeImg.height
+	recipeLayer.x = hop.recipeImg.screenFrame.x
+	recipeLayer.y = hop.recipeImg.screenFrame.y
+	
+	animationTime = 0.3
+	recipeLayer.states.add
+		zoomIn:
+			width: 640
+			height: 391
+			x: 0
+			y: 115
+			originX: 0
+			originY: 1
+	recipeLayer.states.animationOptions = 
+		time: animationTime
+		curve: "ease-out"
+	recipeLayer.states.switch('zoomIn')
+	hop.recipeListBody.states.switch('hide')
+	hop.RecipeList.backgroundColor = "#FFFFFF"
+	recipeLayer.on Events.AnimationEnd, -> 
+		hop.RecipeList.visible = false
+		window.schezwanMod.showSchezwanTofu()
+		recipeLayer.destroy()
+
 

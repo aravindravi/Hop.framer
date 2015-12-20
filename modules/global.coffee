@@ -10,4 +10,7 @@ exports.initBack = ->
 		window.shopNowMod.hideShopNow()
 		window.shoppingListMod.hideShoppingList()
 		window.recipeListMod.hideRecipeList()
+		window.nutritionMod.hideNutritionList()
+		window.schezwanMod.hideSchezwanTofu()
 		window.mainMenuMod.showMenu()
+

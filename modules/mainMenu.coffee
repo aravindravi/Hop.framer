@@ -13,6 +13,7 @@ exports.initMenu = ->
 		option = hop["option" + count]
 		option.states.add("show",{y:option.y, opacity:1})
 		option.states.add("hide",{y:1200, opacity:0})
+		option.states.animationOptions = time:0.3
 		option.states.switchInstant 'hide'
 
 	#States for footer
@@ -26,7 +27,7 @@ exports.showMenu = ->
 	hop.MainMenu.states.switch('show')
 	for count in [1..8]
 		do (count) ->
-		   Utils.delay count * 0.1, ->
+		   Utils.delay count * 0.08, ->
 		     hop["option"+count].states.switch('show')
 
 	Utils.delay 8 * 0.1, -> 
@@ -54,5 +55,9 @@ hop.option3.on Events.Click, (event,layer) ->
 
 hop.option6.on Events.Click, (event,layer) ->
 	window.recipeListMod.showRecipeList()
+	exports.hideMenu()
+
+hop.option7.on Events.Click, (event,layer) ->
+	window.nutritionMod.showNutritionList()
 	exports.hideMenu()
 
