@@ -1,8 +1,15 @@
 {
-  "updateDelay" : 0.3325226814516129,
-  "deviceScale" : 0.25,
+  "propertyPanelToggleStates" : {
+
+  },
   "deviceOrientation" : 0,
-  "contentScale" : 1,
   "sharedPrototype" : 1,
-  "deviceType" : "nexus-5-black"
+  "contentScale" : 1,
+  "deviceType" : "nexus-5-black",
+  "selectedHand" : "",
+  "updateDelay" : 0.3325226814516129,
+  "deviceScale" : -1,
+  "codeFolds" : [
+
+  ]
 }
